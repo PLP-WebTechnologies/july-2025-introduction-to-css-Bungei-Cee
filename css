@@ -1,0 +1,72 @@
+/* General Page Setup */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f4f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #00264d;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header .tagline {
+  font-size: 1.1em;
+  margin-top: 5px;
+}
+
+/* Main Sections */
+main {
+  padding: 20px;
+}
+
+section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Headings inside sections */
+section h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+}
+
+/* Card Layout Example */
+.cards {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  background: #e6f0ff;
+  border: 1px solid #004080;
+  border-radius: 6px;
+  padding: 15px;
+  flex: 1;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top: 5px solid #00264d;
+}
